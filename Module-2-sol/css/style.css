@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+  }
+h1{
+    text-align: center;
+}
+.container{
+    
+}
+.row{
+
+width: 100%;
+
+}
+.item{
+
+width: 30.33%;
+
+border: 1px black solid;
+margin: 15px;
+float: left;
+background-color: cadetblue;
+padding: 40px;
+position: relative;
+
+
+}
+.item2{
+
+    width: 30.33%;
+  
+    border: 1px black solid;
+    margin: 15px;
+    float: left;
+    background-color: cadetblue;
+    padding: 40px;
+    position: relative;
+    
+
+    
+    }
+.item3{
+
+        width: 30.33%;
+        
+        border: 1px black solid;
+        
+        margin: 15px;
+        float: left;
+        background-color: cadetblue;
+        padding: 40px;
+        position: relative;
+
+        
+        }
+
+        @media (min-width: 992px){
+
+            .item{
+                width: 30.33%;
+
+            }
+            .item2{
+                width: 30.33%;
+
+            }
+            .item3{
+                width: 30.33%;
+
+            }
+
+        }
+
+
+        @media (min-width: 768px) and (max-width: 991px){
+            .item3{
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 767px){
+
+            .item{
+                width: 100%;
+
+            }
+            .item2{
+                width: 100%;
+
+            }
+            .item3{
+                width: 100%;
+
+            }
+
+        }
+
+       .item-tile {
+
+            position: absolute;
+            top:0;
+            right: 0px;
+            background: green; 
+            padding: 6px 20px;
+            border-left: 2px solid #000;
+            border-bottom: 2px solid #000;
+        }
+
+        .item-tile2{
+
+            position: absolute;
+            top:0;
+            right: 0px;
+            background: green; 
+            padding: 6px 20px;
+            border-left: 2px solid #000;
+            border-bottom: 2px solid #000;
+        }
+        .item-tile3{
+
+            position: absolute;
+            top:0;
+            right: 0px;
+            background: green; 
+            padding: 6px 20px;
+            border-left: 2px solid #000;
+            border-bottom: 2px solid #000;
+        }
